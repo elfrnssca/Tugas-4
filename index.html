@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Tugas</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+<style>
+  body {
+    background-color: #ff9cb5;
+    font-family: "Times New Roman", serif;
+    color: #020101;
+    padding: 20px;
+    }
+  footer {
+        text-align:center;
+        background-color: #faebed;
+        color: rgb(0, 0, 0);
+        padding: 15px;
+        margin-top: 45px;
+        border-top:4px solid #ff9cb5;
+      }
+  table {
+    text-align: center;       
+    vertical-align: middle;
+    margin: 20px auto;      
+    border-collapse: collapse;
+    background-color: #ff9cb5;
+    }
+  p {
+    text-align:justify ;
+    line-height: 1.6;
+    color: #080808;
+    }
+
+</style>
+<body>
+    
+ <!-- Dropdown menu -->
+  <li class="nav-item dropdown">
+    <a
+    class="nav-link dropdown-toggle"
+    href="#"
+    role="button"
+    data-bs-toggle="dropdown"
+    aria-expanded="false"
+    >
+      MENU
+    </a>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#home">HOME</a></li>
+      <li><a class="dropdown-item" href="#about">ABOUT ME</a></li>
+      <li><a class="dropdown-item" href="#pendidikan">PENDIDIKAN</a></li>
+      <li><a class="dropdown-item" href="#jadwal">JADWAL KULIAH</a></li>
+      <li><a class="dropdown-item" href="#buku_tamu">BUKU TAMU</a></li>
+    </ul>
+  </li> 
+
+      <!-- HOME -->
+      <section id="home" class="mb-5">
+        <h3>HOME</h3>
+        <p class="text-justify">
+          Jurusan Teknik Informatika dan Komputer di bawah naungan Fakultas Teknik Universitas negeri Makassar
+          atas dasar Permenristekdikti Nomor 15 Tahun 2019 tentang Organisasi Tata Kelola Universitas Negeri Makassar
+          dan Surat keputusan Rektor Nomor 669/UN36/KP/2020  tentang pembentukan Jurusan Teknik Informatika dan Komputer
+          Fakultas Teknik Universitas Negeri Makassar. Jurusan ini merupakan jurusan pertama dengan nomenklatur Jurusan
+          Teknik Informatika dan Komputer  dalam lingkungan Fakultas Teknik UNM.</p>
+          <a href="https://www.jtikunm.com/index.php/profil"> Website JTIK </a>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="mb-5">
+        <h3>ABOUT ME</h3>
+        <p>
+          <a href="artikel.html" class="btn btn-sm btn-success"
+            >Tentang ela</a
+          >
+        </p>
+      </section>
+
+      <!-- PENDIDIKAN -->
+      <section id="pendidikan" class="mb-5">
+        <h3>PENDIDIKAN</h3>
+        <ol type="a">
+          <li>SD INPRES BTN IKIP 1</li>
+          <li>SMP 13 MAKASSARR</li>
+          <li>SMAN 9 MAKASSAR</li>
+        </ol>
+      </section>
+      <section id="jadwal" class="mb-5">
+        <h3>JADWAL KULIAH</h3>
+        <div class="table-responsive">
+          <table class="table table-bordered table-striped align-middle">
+            <thead class="table-success">
+              <tr>
+                <th>Hari</th>
+                <th>Mata Kuliah</th>
+                <th>Waktu</th>
+              </tr>
+              </thead>
+                  <td rowspan="2"> Senin </td>
+                  <td> Jaringan Komputer </td>
+                  <td> 07.30 - 10.05 </td>
+              </tr>
+              <tr>
+                  <td> Pemrograman Web </td>
+                  <td> 14.50 - 17.30 </td>
+              </tr>
+              <tr>
+                  <td rowspan="2">Selasa </td>
+                  <td> Profesi Kependidikan </td>
+                  <td> 07.30 - 09.10</td>
+              <tr>
+                  <td> Strategi Pembelajaran </td>
+                  <td> 14.50 - 17.30 </td>
+              </tr>
+              <tr>
+                  <td rowspan="3">Rabu</td>
+                  <td> Keamanan Komputer </td>
+                  <td> 07.30 - 10.05</td>
+              </tr>
+              <tr>
+                  <td> Struktur Data </td>
+                  <td> 10.05 - 12.40 </td>
+              </tr>
+              <tr>
+                  <td> Inovasi Teknologi </td>
+                  <td> 15.45 - 17.30</td>
+              </tr>
+              <tr>
+                  <td> Kamis</td>
+                  <td> Kecerdasan Buatan </td>
+                  <td> 07.30 - 10.05 </td>
+              </tr>
+              <tr>
+                  <td> Jumat </td>
+                  <td> Profesi Kependidikan </td>
+                  <td> 10.05 - 11.50 </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- BUKU TAMU -->
+      <section id="buku_tamu" class="mb-5">
+        <h3>BUKU TAMU</h3>
+        <p>
+          <a href="buku_tamu.html" class="btn btn-sm btn-success"
+            >Buka Buku Tamu</a
+          >
+        </p>
+      </section>
+
+      <hr />
+
+      <footer class="text-center mt-4">
+        &copy; 2025 Fransisca Gabriela | 240209501089 | PTIK F
+      </footer>
+    </main>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
